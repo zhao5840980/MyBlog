@@ -1,0 +1,165 @@
+.wrap {
+  width: 678px;
+  height: 320px;
+  border-radius: 10px;
+  background-color: #fff;
+  margin: 10px auto;
+  padding: 10px;
+  box-shadow: 2px 2px 2px #ccc;
+
+
+}
+
+.wrap-title {
+  padding: 10px 0 0 10px;
+
+  .user {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 138px;
+
+    .user-photowrap {
+      width: 48px;
+      height: 48px;
+      border-radius: 24px;
+      border: 2px solid#fff;
+      box-shadow: 2px 2px 2px #ccc;
+
+    }
+
+    .user-msg {
+
+
+      margin-left: 12px;
+      font-size: 14px;
+      padding-top: 2px;
+
+
+      .userName,
+      .data {
+        height: 20px;
+        margin-bottom: 4px;
+      }
+
+      .userName {
+        font-weight: bold;
+      }
+
+    }
+
+
+  }
+
+
+
+}
+
+.wrap-wrap {
+  width: 658px;
+  margin: 10px auto;
+  position: relative;
+  height: 180px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+
+  .img-wrap {
+
+    flex: 1 1 329px;
+
+    width: 329px;
+    height: 180px;
+    border-radius: 4px 0 0 4px;
+
+
+    .img-img {
+      width: 329px;
+      height: 180px;
+      background-size: contain;
+      border-radius: 4px 0 0 4px;
+    }
+
+    .mask {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 329px;
+      height: 180px;
+      background: rgba(0, 0, 0, 0.4);
+      border-radius: 4px 0 0 4px;
+      display: none;
+
+
+
+    }
+
+  }
+
+  .text-wrap {
+    flex: 1 1 329px;
+    padding: 10px;
+
+    .title {
+      width: 310px;
+      font-size: 18px;
+      font-weight: bold;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      margin-bottom: 4px;
+
+    }
+
+    .blog-wrap {
+      width: 310px;
+      height: 132px;
+      font-size: 12px;
+      color: #99a2aa;
+      overflow: hidden;
+      text-overflow: ellipsis;
+
+    }
+  }
+}
+
+.wrap:hover .mask {
+  color: #5dd0ff;
+  display: block;
+
+
+}
+
+.wrap:hover .title {
+  color: #5dd0ff;
+  display: block;
+
+
+}
+
+.wrap:hover .wrap-wrap {
+  box-shadow: 2px 2px 2px #ccc;
+}
+
+.wrap-bottom {
+  padding: 10px 20px;
+
+  .icon-list {
+    li {
+      float: left;
+      margin-right: 30px;
+      cursor: pointer;
+
+      span {
+        margin-left: 4px;
+        font-size: 16px;
+      }
+    }
+
+    li:hover {
+      color: #FF6666;
+    }
+  }
+}

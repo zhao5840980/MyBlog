@@ -1,0 +1,18 @@
+ .timer-time {
+   width: 218px;
+   margin-left: 14px;
+   font-size: 16px;
+   padding: 10px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   line-height: 12px;
+
+   .timer-icon {}
+
+   .timer-wrap {
+     margin-top: 18px;
+     font-weight: bold;
+     text-shadow: 2px 2px 2px #ccc;
+   }
+ }

@@ -1,0 +1,29 @@
+.middle-wrap {
+  // float: left;
+  // margin-left: 10px;
+  position: absolute;
+  left: 260px;
+
+  width: 678px;
+
+  .banner-list {
+    width: 678px;
+    height: 378px;
+    margin-bottom: 10px;
+
+    .banner-img {
+      width: 678px;
+      height: 378px;
+    }
+  }
+
+  .tab-list {
+    background: #fff;
+  }
+
+  .wrap-kong {
+    height: 10px;
+
+  }
+
+}

@@ -1,0 +1,53 @@
+.right {
+  float: right;
+
+  .right-1 {
+    width: 251px;
+    height: 157px;
+    border-radius: 4px;
+    background-color: #fff;
+
+    box-shadow: 0 1px 3px rgba(26, 26, 26, .1);
+  }
+
+  .timer {
+    width: 251px;
+    height: 300x;
+    border-radius: 4px;
+    background-color: #fff;
+    margin-top: 10px;
+
+    box-shadow: 0 1px 3px rgba(26, 26, 26, .1);
+
+  }
+
+  .tagclound {
+    margin-top: 10px;
+    width: 251px;
+    height: 336px;
+    border-radius: 4px;
+    background-color: #ffff;
+    box-shadow: 0 1px 3px rgba(26, 26, 26, .1);
+
+    .tage {
+
+      width: 200px;
+
+      padding: 10px 0 0 10px;
+
+      .tags-name {
+        margin-left: 4px;
+        font-size: 16px;
+      }
+
+
+    }
+
+    .tag-wrap {
+      padding: 10px;
+
+    }
+
+
+  }
+}

@@ -1,0 +1,60 @@
+.header {
+  width: 100%;
+  height: 47px;
+  background: #ffff;
+
+  position: fixed;
+  margin-bottom: 47px;
+  top: 0;
+  overflow: hidden;
+  z-index: 1000;
+}
+
+.header-wrap {
+  height: 47px;
+  width: 1200px;
+
+  margin: 0 auto;
+  line-height: 40px;
+  // background: #fff;
+
+  .header-wrap-l {
+    float: left;
+
+    .header-wrap-l-line {
+      border-bottom: none;
+    }
+  }
+
+  .logo {
+    float: left;
+    margin: 0 20px;
+    font-size: 20px;
+    font-weight: bold;
+
+  }
+
+  .bloglist {
+    li {
+      float: left;
+      // width: 40px;
+      margin-right: 10px;
+      text-align: center;
+      padding: 0 10px;
+      cursor: point;
+
+
+    }
+
+    li:hover {
+      background-color: #ccc;
+      border-bottom: 2px solid #ffffff;
+
+    }
+  }
+}
+
+.search-wrap {
+  float: right;
+  margin-top: 4px;
+}
